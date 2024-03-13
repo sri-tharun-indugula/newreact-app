@@ -1,16 +1,11 @@
 import './App.css';
-import { Provider } from 'react-redux';
-import { store } from './store/Store';
-import Counter from './components/Counter';
+import Redux from './components/redux';
+import Todo from './components/todo';
 
 function App() {
   return (
-    <Provider store={store}>
-    <div className="App">
-      <h1>hiii</h1>
-      <Counter />
-    </div>
-    </Provider>
+    <><Redux /><Todo></Todo></>
+   
   );
 }
 
