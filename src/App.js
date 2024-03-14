@@ -1,10 +1,14 @@
 import './App.css';
-import Redux from './components/redux';
-import Todo from './components/todo';
+import Navbar from './components/navbar';
+
+
 
 function App() {
   return (
-    <><Redux /><Todo></Todo></>
+    <>
+
+
+    </>
    
   );
 }
